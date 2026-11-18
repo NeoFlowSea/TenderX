@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { actions, marketFor, useAppState } from '../store';
 import { useNow } from '../hooks';
 import { fullCost, tenderStatus } from '../lib/analysis';
-import { days, formatMoney, formatShort, groupDigits } from '../lib/format';
+import { days, formatCompact, formatMoney, groupDigits } from '../lib/format';
 import { parseOfferText, type ParsedOffer } from '../lib/parseOffer';
 import { Countdown, Field, NotFound, SourceBadge } from '../components/ui';
 import { TenderHeader } from './TenderDetail';
@@ -439,7 +439,7 @@ export function BidForm({ id }: { id: string }) {
                   {parsed.r.goodsTotal !== null && parsed.r.deliveryCost !== null && (
                     <div className="r total">
                       <span>Итого</span>
-                      <b className="num">{formatShort(parsed.r.goodsTotal + parsed.r.deliveryCost)} сум</b>
+                      <b className="num">{formatCompact(parsed.r.goodsTotal + parsed.r.deliveryCost)} сум</b>
                     </div>
                   )}
                 </div>

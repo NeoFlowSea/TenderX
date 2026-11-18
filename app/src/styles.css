@@ -302,6 +302,7 @@ table.bids { width: 100%; border-collapse: separate; border-spacing: 0; font-siz
   .grid-2, .grid-2.wide { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
+  .topbar { position: static; }
   body { font-size: 14.5px; }
   .topbar-inner { padding: 10px 16px; gap: 10px; }
   .container { padding: 18px 16px 48px; }
