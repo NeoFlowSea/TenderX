@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp files
+~$*
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+.firebase/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.log
