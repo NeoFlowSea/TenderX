@@ -40,13 +40,6 @@ TenderX превращает закупку в прозрачный и срав�
 - Статистика [stat.uz](https://stat.uz) / SIAT
 - Биржевые котировки [UZEX](https://uzex.uz)
 
-## Демо
-
-| Демо | Описание |
-|---|---|
-| [tendermatch-central-asia.web.app](https://tendermatch-central-asia.web.app/) | Аналитика рынка закупок: контракты Всемирного банка по Центральной Азии — страны, категории, победители, динамика |
-| [tendermatch-portfolio.web.app](https://tendermatch-portfolio.web.app/) | Тендерный портфель: отбор релевантных тендеров из большой базы, сроки и статусы |
-
 ## Структура репозитория
 
 ```
