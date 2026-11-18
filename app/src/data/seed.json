@@ -1,0 +1,81 @@
+{
+  "_note": "Демо-данные для питча. Цифры тендера #001 совпадают со слайдом «Демо»: A 11,3 млн, B 10,4 млн, C 10,8 млн. Время задаётся относительно момента первой загрузки.",
+  "suppliers": [
+    { "id": "A", "name": "Поставщик A", "city": "Ташкент", "note": "Склад в Ташкенте" },
+    { "id": "B", "name": "Поставщик B", "city": "Ташкентская обл.", "note": "Собственный транспорт" },
+    { "id": "C", "name": "Поставщик C", "city": "Самарканд", "note": "Производство в Самарканде" }
+  ],
+  "tenders": [
+    {
+      "id": "t001",
+      "number": "001",
+      "title": "Бумажные стаканы 250 мл",
+      "category": "Упаковка и расходники HoReCa",
+      "itemKey": "cups_250",
+      "quantity": 50000,
+      "unit": "шт",
+      "region": "Ташкент",
+      "buyer": "Сеть кофеен",
+      "deliveryDays": 7,
+      "deadlineHours": -3,
+      "createdHours": -50,
+      "closed": true,
+      "requirements": [
+        { "id": "r1", "text": "Сертификат соответствия для контакта с пищевыми продуктами" },
+        { "id": "r2", "text": "Подходят для горячих напитков (до 90 °C)" },
+        { "id": "r3", "text": "Доставка до склада заказчика в Ташкенте" }
+      ],
+      "bids": [
+        { "supplierId": "A", "goodsPrice": 11000000, "deliveryCost": 300000, "deliveryDays": 3, "hours": -40, "comment": "Склад в Ташкенте, отгрузка на следующий день после оплаты." },
+        { "supplierId": "B", "goodsPrice": 10200000, "deliveryCost": 200000, "deliveryDays": 5, "hours": -30, "comment": "Доставка собственным транспортом, разгрузка включена." },
+        { "supplierId": "C", "goodsPrice": 9700000, "deliveryCost": 1100000, "deliveryDays": 6, "hours": -20, "comment": "Отгрузка с производства в Самарканде, доставка фурой." }
+      ]
+    },
+    {
+      "id": "t002",
+      "number": "002",
+      "title": "Крышки для стаканов 80 мм",
+      "category": "Упаковка и расходники HoReCa",
+      "itemKey": "lids_80",
+      "quantity": 50000,
+      "unit": "шт",
+      "region": "Ташкент",
+      "buyer": "Сеть кофеен",
+      "deliveryDays": 5,
+      "deadlineDayOffset": 1,
+      "deadlineTime": "18:00",
+      "createdHours": -6,
+      "budget": 4500000,
+      "requirements": [
+        { "id": "r1", "text": "Подходят к стаканам 250 мл (диаметр 80 мм)" },
+        { "id": "r2", "text": "Пищевой полистирол, сертификат соответствия" }
+      ],
+      "bids": [
+        { "supplierId": "A", "goodsPrice": 4100000, "deliveryCost": 150000, "deliveryDays": 2, "hours": -4, "comment": "Со склада в Ташкенте." },
+        { "supplierId": "C", "goodsPrice": 3600000, "deliveryCost": 900000, "deliveryDays": 4, "hours": -2, "comment": "Можем отгрузить вместе со стаканами." }
+      ]
+    },
+    {
+      "id": "t003",
+      "number": "003",
+      "title": "Салфетки бумажные 24×24 см",
+      "category": "Упаковка и расходники HoReCa",
+      "itemKey": "napkins_24",
+      "quantity": 2000,
+      "unit": "пачка",
+      "region": "Самарканд",
+      "buyer": "Ресторан национальной кухни",
+      "deliveryDays": 10,
+      "deadlineDayOffset": 3,
+      "deadlineTime": "18:00",
+      "createdHours": -2,
+      "requirements": [
+        { "id": "r1", "text": "Однослойные, 100 шт. в пачке" },
+        { "id": "r2", "text": "Белые, без запаха" }
+      ],
+      "bids": [
+        { "supplierId": "B", "goodsPrice": 16400000, "deliveryCost": 450000, "deliveryDays": 6, "hours": -1, "comment": "Партия в наличии." }
+      ]
+    }
+  ]
+}

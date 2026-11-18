@@ -40,11 +40,24 @@ TenderX превращает закупку в прозрачный и срав�
 - Статистика [stat.uz](https://stat.uz) / SIAT
 - Биржевые котировки [UZEX](https://uzex.uz)
 
+## Для жюри
+
+- **Демо MVP:** https://neoflowsea.github.io/TenderX/
+- **Презентация:** [presentation/TenderX_Pitch.pdf](presentation/TenderX_Pitch.pdf) · [.pptx](presentation/TenderX_Pitch.pptx)
+- **Код MVP:** [app/](app/) — React + TypeScript, запуск: `cd app && npm install && npm run dev`
+
+## Команда
+
+- **Нуриддин Мухиддинжонов** — CTO / разработка
+- **Камрон Собиржонов** — финансы и бизнес-модель
+- **Диербек Каххоров** — дизайн / UI-UX
+
 ## Структура репозитория
 
 ```
 TenderX/
-├── presentation/   # презентация для питча
+├── app/            # код MVP
+├── presentation/   # презентация (PDF + PPTX)
 └── README.md
 ```
 
